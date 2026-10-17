@@ -3,7 +3,7 @@
 Personal website of William Yu, live at <https://williamjyu.github.io>.
 
 Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) template, with a custom
-light theme ("Skyspace at dusk") in `_sass/_turrell.scss`.
+light theme ("Skyspace, blue hour") in `_sass/_turrell.scss`.
 
 ## Local preview
 
@@ -22,7 +22,6 @@ open http://localhost:8080
 | Projects          | `_pages/projects.md` + `_projects/*.md`  |
 | Misc              | `_pages/misc.md`                         |
 | Social links      | `_data/socials.yml`                      |
-| Resume            | `assets/pdf/resume.pdf`                  |
 | Profile photo     | `assets/img/prof_pic.jpg` (see about.md) |
 | Theme colors/glow | `_sass/_turrell.scss`                    |
 

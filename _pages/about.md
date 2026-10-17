@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Placeholder tagline · what I do · where I'm based"
 
 # To add a photo: save it as assets/img/prof_pic.jpg and restore this block.
 # profile:
@@ -20,21 +19,18 @@ latest_posts:
   enabled: false
 ---
 
-<!-- PLACEHOLDER: replace everything below with your real bio. -->
+## About
 
-<!-- prettier-ignore-start -->
-> **Placeholder.** This site is a work in progress. Everything you see here is stand-in copy.
-{: .block-tip }
-<!-- prettier-ignore-end -->
+Hi, I'm William.
 
-Hi, I'm William. Placeholder: one or two sentences about who you are and what you care about — the kind of work you do, and the questions that keep pulling you back.
+Born and raised in Eugene, Oregon.
 
-Placeholder: a second paragraph with a little more texture. Where you've been, what you're building now, and what you'd like to be asked about. Point people to [my work]({{ '/work/' | relative_url }}) and [projects]({{ '/projects/' | relative_url }}).
+Spent some time in Delaware, then Brown, where I studied math and CS.
 
-### Currently
+Currently call New York and Seoul home.
 
-<!-- PLACEHOLDER -->
+## Previously
 
-- Placeholder: what you're working on
-- Placeholder: what you're learning
-- Placeholder: what you're reading
+Worked on the commodities sales and trading desk at Goldman Sachs.
+
+Interned for the founder and CEO of an engineering startup in Stockholm, Sweden.

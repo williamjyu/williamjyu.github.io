@@ -2,10 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: "Placeholder: selected projects and experiments."
+description:
 nav: true
 nav_order: 2
-display_categories: [featured, experiments]
 horizontal: false
 ---
 

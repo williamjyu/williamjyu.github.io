@@ -6,13 +6,10 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: William
 middle_name:
 last_name: Yu
-contact_note: >
-  Placeholder: a short note about the best way to reach me. <!-- PLACEHOLDER -->
+contact_note: # PLACEHOLDER: optional note shown under the social icons
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of William Yu.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: William Yu, personal website, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -322,6 +319,13 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # Project pages open with their own bold title, so hide the layout's title and
+  # description there (both still show on the project cards).
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      _styles: ".post-header { display: none; }"
 
 sass:
   style: compressed
@@ -560,7 +564,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Inter:300,400,500,600|Inter+Tight:300,500,600|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
