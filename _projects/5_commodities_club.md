@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Commodities Club
-description: "Trade pitch: long TTF Summer '26 strip, short TTF Summer '27 strip."
+description: Primer on commodities markets made for club members.
 importance: 5
 ---
 

@@ -3,11 +3,10 @@ layout: about
 title: About
 permalink: /
 
-# To add a photo: save it as assets/img/prof_pic.jpg and restore this block.
-# profile:
-#   align: right
-#   image: prof_pic.jpg
-#   image_circular: false
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
 
 selected_papers: false
 social: true
