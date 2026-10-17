@@ -1,34 +1,40 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Placeholder tagline · what I do · where I'm based"
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+# To add a photo: save it as assets/img/prof_pic.jpg and restore this block.
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- PLACEHOLDER: replace everything below with your real bio. -->
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<!-- prettier-ignore-start -->
+> **Placeholder.** This site is a work in progress. Everything you see here is stand-in copy.
+{: .block-tip }
+<!-- prettier-ignore-end -->
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Hi, I'm William. Placeholder: one or two sentences about who you are and what you care about — the kind of work you do, and the questions that keep pulling you back.
+
+Placeholder: a second paragraph with a little more texture. Where you've been, what you're building now, and what you'd like to be asked about. Point people to [my work]({{ '/work/' | relative_url }}) and [projects]({{ '/projects/' | relative_url }}).
+
+### Currently
+
+<!-- PLACEHOLDER -->
+
+- Placeholder: what you're working on
+- Placeholder: what you're learning
+- Placeholder: what you're reading
