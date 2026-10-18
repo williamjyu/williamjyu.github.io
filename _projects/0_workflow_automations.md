@@ -9,4 +9,4 @@ importance: 0
 
 Goldman Sachs & Co. · PineBridge Investments · New York, NY
 
-Automated workflows for live pricing, markets, and client communication that once took hours to background agents. Projects spanned full-stack software projects, Outlook, Excel, internal data, visualization outputs, and dashboards.
+Moved workflows for live pricing, markets, and client communication that once took hours to automated background agents. Projects spanned full-stack software projects, Outlook, Excel, internal data, visualization outputs, and dashboards.
