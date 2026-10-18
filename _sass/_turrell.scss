@@ -325,39 +325,31 @@ footer[role="contentinfo"] {
   letter-spacing: 0.08em;
 }
 
-/* Misc photo tiles ------------------------------------------------------------ */
+/* Misc photo ------------------------------------------------------------------ */
 
-.aperture-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 1rem 0 2rem;
+// Sits to the right of Interests and Favorite Books; full width on phones.
+.misc-photo {
+  float: right;
+  width: 220px;
+  margin: 0.5rem 0 1.5rem 2rem;
 
-  @media (max-width: 576px) {
-    grid-template-columns: 1fr;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
   }
-}
-
-.aperture-tile {
-  margin: 0;
 
   figcaption {
     margin-top: 0.5rem;
     font-size: 0.85rem;
+    font-style: italic;
+    line-height: 1.5;
     color: var(--global-text-color-light);
   }
-}
 
-.aperture {
-  aspect-ratio: 4 / 3;
-  border-radius: 14px;
-  background: aperture($glow-blue, $glow-cyan, $glow-sky);
-}
-
-.aperture-tile:nth-child(3n + 2) .aperture {
-  background: aperture($glow-deep, $glow-blue, $glow-ice);
-}
-
-.aperture-tile:nth-child(3n) .aperture {
-  background: aperture($glow-cyan, $glow-ice, $glow-blue);
+  @media (max-width: 576px) {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5rem;
+  }
 }
